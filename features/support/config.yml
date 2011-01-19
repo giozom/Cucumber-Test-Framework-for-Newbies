@@ -1,0 +1,5 @@
+  google_australia:
+    base_url: http://www.google.com.au
+
+  google_singpaore:
+    base_url: http://www.google.com.sg
