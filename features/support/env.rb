@@ -2,13 +2,14 @@ require 'spec/expectations'
 require 'uri'
 require 'net/http'
 
-require File.dirname(__FILE__) + '/../lib/configuration';
+require File.dirname(__FILE__) + '/lib/configuration';
+require File.dirname(__FILE__) + '/patches/capybara';
 BASE_URL = Configuration["base_url"]
 
 #CAPYBARA
 require 'capybara/cucumber'
 require 'capybara/session'
-require 'features/support/patches/capybara'
+#require 'features/support/patches/capybara'
 Capybara.default_driver = :selenium
 Capybara.run_server = false
 Capybara.default_selector = :css
