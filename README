@@ -43,7 +43,7 @@ You might want to read more about Cucumber, Steps definitions, and Page Models b
 1. Open ruby mine and create a new project
 2. Create the following directories
 "features/regression"
-"features/step_definition"
+"features/step_definitions"
 "features/support/pages"
 "features/support/patches"
 
@@ -103,7 +103,7 @@ Scenario: A simple google search scenario
 
 Writing the Steps Definitions
 
-7. Create a new file called "search_steps.rb" under "features/steps_definitions"
+7. Create a new file called "search_steps.rb" under "features/step_definitions"
 
 Given /^I am on the main google search$/ do
   visit "http://www.google.com"
@@ -247,8 +247,8 @@ Configuration.load(ENV['TEST_ENV'])
 
 3. Add the following lines in your "features\support\env.rb" file
 
-
-require File.dirname(__FILE__) + '/../lib/configuration';
+require File.dirname(__FILE__) + '/patches/capybara'; 
+require File.dirname(__FILE__) + '/lib/configuration';
 BASE_URL = Configuration["base_url"]
 
 
