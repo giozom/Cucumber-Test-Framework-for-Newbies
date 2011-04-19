@@ -18,7 +18,7 @@ module PageWithGoogle
   end
 
   def click_submit_button
-    click "Google Search"
+    click_link_or_button "Google Search"
   end
 
   def qastuffs_main_css
@@ -26,8 +26,8 @@ module PageWithGoogle
   end
 
   def click_first_result
-    locate(:xpath, ".//*[@id='rso']/li[1]/h3/a").click
+    find(:xpath, ".//*[@id='rso']/li[1]/div/span/h3/a").click_link_or_button
   end
-
 end
+
 
