@@ -26,7 +26,7 @@ module PageWithGoogle
   end
 
   def click_first_result
-    find(:xpath, ".//*[@id='rso']/li[1]/div/span/h3/a").click_link_or_button
+    find(:xpath, ".//*[@id='rso']/li[1]/div/span/h3/a").click
   end
 end
 
