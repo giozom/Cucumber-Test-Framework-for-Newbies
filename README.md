@@ -2,9 +2,9 @@
 ### See Wiki for more Info
     http://github.com/giozom/Cucumber-Test-Framework-for-Newbies/wiki
 ***
-Updated Dec 2, 2011
-- Added RVM and gemset
-- Test currently broken - work in progress
+### Updated Dec 2, 2011
+##### Added RVM and gemset
+##### Test currently broken - work in progress
 
 ***
 
