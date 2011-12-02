@@ -1,4 +1,4 @@
-require 'spec/expectations'
+require 'rspec/expectations'
 require 'uri'
 require 'net/http'
 
@@ -7,6 +7,7 @@ require File.dirname(__FILE__) + '/patches/capybara';
 BASE_URL = Configuration["base_url"]
 
 #CAPYBARA
+require 'gizmo'
 require 'capybara/cucumber'
 require 'capybara/session'
 #require 'features/support/patches/capybara'

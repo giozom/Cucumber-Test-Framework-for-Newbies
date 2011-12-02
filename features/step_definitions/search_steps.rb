@@ -2,7 +2,7 @@ Given /^I am on the main google search$/ do
   visit "#{BASE_URL}"
 end
 
-Given /^I search for "([^\"]*)"$/ do |query|
+And /^I search for "([^\"]*)"$/ do |query|
   on_page_with :google do |page|
     page.fill_in_search query
   end
