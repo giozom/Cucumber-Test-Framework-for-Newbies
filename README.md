@@ -8,9 +8,9 @@
 
 ***
 
-### Need to do the following if after you have cloned this project
+### Need to do the following after you have cloned this project
     gem install bundler
-    bundle install
+    bundle install       
 
 ### To Run the features, run the following:
     bundle exec cucumber  -r features/support/ -r features/step_definitions  
