@@ -2,13 +2,13 @@
 ### See Wiki for more Info
     http://github.com/giozom/Cucumber-Test-Framework-for-Newbies/wiki
 ***
-### Updated Dec 2, 2011
+### Updated Dec 5 , 2011
 ##### Added RVM and gemset
-##### Test currently broken - work in progress
+##### Status: Feature file passing
 
 ***
 
-### Need to do the following after you have cloned this project
+### You'll will need to run the following after you have cloned this project
     gem install bundler
     bundle install       
 

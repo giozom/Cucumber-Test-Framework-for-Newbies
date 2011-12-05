@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3f5fad3-2b82-442e-9a36-cd1a1f57926d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/regression/search.feature" afterPath="$PROJECT_DIR$/features/regression/search.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/search_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/search_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb" afterPath="$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb" />
-    </list>
+    <list default="true" id="c3f5fad3-2b82-442e-9a36-cd1a1f57926d" name="Default" comment="" />
     <ignored path="Cucumber-Test-Framework-for-Newbies.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,7 +80,7 @@
       <file leaf-file-name="page_with_qastuffs.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2843602">
+            <state line="12" column="45" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2843602">
               <folding />
             </state>
           </provider>
@@ -592,7 +588,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2843602">
+        <state line="12" column="45" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2843602">
           <folding />
         </state>
       </provider>
