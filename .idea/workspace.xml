@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3f5fad3-2b82-442e-9a36-cd1a1f57926d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Cucumber-Test-Framework-for-Newbies.iml" afterPath="$PROJECT_DIR$/.idea/Cucumber-Test-Framework-for-Newbies.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/regression/search.feature" afterPath="$PROJECT_DIR$/features/regression/search.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/search_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/search_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb" afterPath="$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb" />
     </list>
     <ignored path="Cucumber-Test-Framework-for-Newbies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,25 +66,25 @@
       <file leaf-file-name="search_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/search_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="51" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.feature" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/regression/search.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="42" selection-start="276" selection-end="276" vertical-scroll-proportion="0.18957347">
+            <state line="6" column="30" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_with_qastuffs.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="page_with_qastuffs.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="84" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+            <state line="12" column="27" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2843602">
               <folding />
             </state>
           </provider>
@@ -109,9 +108,10 @@
         <option value="$PROJECT_DIR$/features/support/patches/capybara.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/search_steps.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/page_with_google.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/search_steps.rb" />
         <option value="$PROJECT_DIR$/features/regression/search.feature" />
+        <option value="$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb" />
       </list>
     </option>
   </component>
@@ -541,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="84" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="80" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
@@ -576,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/search_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="51" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/page_with_google.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="-19.038462">
@@ -592,7 +578,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/regression/search.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="276" selection-end="276" vertical-scroll-proportion="0.18957347">
+        <state line="6" column="30" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/search_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/page_with_qastuffs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="206" selection-end="206" vertical-scroll-proportion="0.2843602">
           <folding />
         </state>
       </provider>

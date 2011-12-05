@@ -14,12 +14,10 @@ Then /^I click on the search button$/ do
   end
 end
 
-Then /^I click on the first result$/ do
-  on_page_with :google do |page|
-    page.click_first_result
-    page.should have_css(page.qastuffs_main_css)
-  end
+And /^I click on the "([^\"]*)" link$/ do |text|
+   click_link text
 end
+
 
 Then /^I should land on the qastuffs blog$/ do
   on_page_with :qastuffs do |page|

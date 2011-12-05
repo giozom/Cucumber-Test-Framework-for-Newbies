@@ -2,7 +2,7 @@ module PageWithQastuffs
   include Gizmo::PageMixin
 
   def valid?
-    title.should =~ /.*QA Blog.*/
+    title.should =~ /.*site:qastuffs.blogspot.com - Google Search.*/
   end
 
   def title
