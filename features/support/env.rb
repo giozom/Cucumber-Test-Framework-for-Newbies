@@ -4,6 +4,10 @@ require 'rspec/expectations'
 require 'uri'
 require 'net/http'
 
+require 'capybara'
+require 'capybara/dsl'
+
+
 require File.dirname(__FILE__) + '/lib/configuration';
 require File.dirname(__FILE__) + '/patches/capybara';
 BASE_URL = Configuration["base_url"]
