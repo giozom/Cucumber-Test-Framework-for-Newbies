@@ -8,7 +8,7 @@
 
 ***
 
-### You'll will need to run the following after you have cloned this project
+### You'll need to run the following after you have cloned this project
     gem install bundler
     bundle install       
 
