@@ -2,9 +2,19 @@
 ### See Wiki for more Info
     http://github.com/giozom/Cucumber-Test-Framework-for-Newbies/wiki
 ***
-### Updated Dec 5 , 2011
+### Updated March 8 , 2012
 ##### Added RVM and gemset
 ##### Status: Feature file passing
+
+***
+### GIT Clone repo
+    git clone git@github.com:giozom/Cucumber-Test-Framework-for-Newbies.git
+
+### Create gemset
+    $ rvm gemset create demo
+    
+### Install RVM  
+    $ rvm install ruby-1.9.2-p180 
 
 ***
 
